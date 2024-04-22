@@ -8,7 +8,7 @@ Docker and Docker compose must be necessarly installed on your machine. A basic 
 
 ## Steps followed to build the container
 
-1. After creating the [docker-compose.yaml](https://github.com/robonoff/Cloud-Computing-2023-2024/blob/main/Basic/docker-compose.yaml) into a specific folder with a random name, run this command in the terminal being in this folder:
+1. After creating the [docker-compose.yaml](https://github.com/robonoff/Cloud-Computing-2023-2024/blob/main/Basic/docker-compose.yaml) into a specific folder with a name of your preference (in my case was cloud_base), run this command in the terminal being in this folder:
 
 ###
 ###
