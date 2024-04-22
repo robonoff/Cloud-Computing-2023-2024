@@ -1,0 +1,56 @@
+# OSU MPI Latency Test v7.3
+# Size          Latency (us)
+# Datatype: MPI_CHAR.
+1                       8.88
+2                       8.50
+4                       8.29
+8                       9.08
+16                      8.52
+32                      9.19
+64                      8.80
+128                     9.33
+256                     9.21
+512                     9.00
+1024                    9.35
+2048                   15.80
+4096                   14.83
+8192                   11.11
+16384                  16.81
+32768                  19.39
+65536                  53.85
+131072                 61.67
+262144                 82.85
+524288                137.33
+1048576               243.65
+2097152               559.27
+4194304              1182.20
+##########################
+##########################
+##########################
+Warning: Permanently added '[osu-single-node-worker-1.osu-single-node.default.svc]:2222,[10.42.2.33]:2222' (ECDSA) to the list of known hosts.
+Warning: Permanently added '[osu-single-node-worker-0.osu-single-node.default.svc]:2222,[10.42.2.32]:2222' (ECDSA) to the list of known hosts.
+
+# OSU MPI Scatter Latency Test v7.3
+# Datatype: MPI_CHAR.
+# Size       Avg Latency(us)
+1                      18.82
+2                       8.86
+4                       9.13
+8                      10.75
+16                      9.82
+32                      9.54
+64                     10.21
+128                    10.30
+256                     9.85
+512                    10.17
+1024                   11.78
+2048                   13.98
+4096                   14.52
+8192                   15.68
+16384                  21.15
+32768                  25.49
+65536                  50.34
+131072                 71.79
+262144                 96.27
+524288                163.20
+1048576               286.02
