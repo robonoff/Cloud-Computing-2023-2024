@@ -4,7 +4,7 @@ In this repo, it's possible to find three different folders, each of them repres
 The repo is constituted by three folders:
 
 
-1. __Basic___, for the first Module of Cloud Computing exam. The assignment requires the student to identify, deploying and implementing a cloud-based file storage system. The system should allow users to upload, download, and delete files. Each user should have a private storage space. The system should be scalable, secure, and cost-efficient. As suggested, Nextcloud has been used to approach this problem.
+1. __Basic___, for the first Module of Cloud Computing exam. The assignment requires the student to identify, deploy and implement a cloud-based file storage system. The system should allow users to upload, download, and delete files. Each user should have a private storage space. The system should be scalable, secure, and cost-efficient. As suggested, Nextcloud has been used to approach this problem.
 
 
 2. __Advanced01__ is the folder containing the first part of the Assignment for the second module of Cloud Computing exam. The exercise intends to test the comprehension of Kubernetes environment and its resources, requiring the student to replicate the deployment performed in the Basic assignment but using Helm chart (this is the chosen option) or writing custom manifests. 
