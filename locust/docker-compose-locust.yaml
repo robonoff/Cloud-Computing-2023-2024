@@ -1,0 +1,26 @@
+version: '3'
+
+networks:
+  nextcloud:
+    external: true
+
+services:
+  master:
+    image: locustio/locust
+    ports:
+      - "8089:8089"
+    networks:
+      - nextcloud
+    volumes:
+      - ./:/mnt/locust
+      - ./files:/app/files
+    command: -f /mnt/locust/test.py --master -H http://app:80
+
+  worker:
+    image: locustio/locust
+    networks:
+      - nextcloud
+    volumes:
+      - ./:/mnt/locust
+      - ./files:/app/files
+    command: -f /mnt/locust/test.py --worker --master-host master
