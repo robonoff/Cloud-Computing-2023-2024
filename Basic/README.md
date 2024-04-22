@@ -1,5 +1,4 @@
-# Cloud BASIC assignment
-## Cloud Storage System Deployment 
+## Cloud Basic - Storage System Deployment 
 
 This folder drafts the required steps for deploying a cloud storage system using Docker. It benefits from MySQL for the database, Nextcloud for the file storage and Locust for the load testing and benchmarking. 
 
