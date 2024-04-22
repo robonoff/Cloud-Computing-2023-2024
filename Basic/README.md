@@ -1,4 +1,4 @@
-                                                                 ## Cloud Basic - Storage System Deployment 
+# Cloud Basic - Storage System Deployment 
 
 This folder drafts the required steps for deploying a cloud storage system using Docker. It exploits features from MySQL for the database, Nextcloud for the file storage and Locust for the load testing and benchmarking. 
 
@@ -34,7 +34,6 @@ Open the port #http://localhost:8081/ on the your favorite browser, and the stor
 ###
 ```
 sudo chmod +x ./create_nextcloud_users.sh
-###
 ./create_nextcloud_users.sh
 ```
 
