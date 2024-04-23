@@ -1,10 +1,10 @@
 # Cloud Advanced 01 -  Cloud Storage System Deployment w/ Kubernetes
 
-This directory contains all the required files for deploying a cloud storage system using K3s, a light-weight version of K8s. 
+This directory contains all the required files for deploying a cloud storage system using `K3s`, a light-weight version of `K8s`. 
 
 ## Prerequisites
 
-It's necessary to have installed k3s on the machine and helmchart. 
+It's necessary to have installed `K3s` on the machine and `Helmchart`. 
 
 ## Steps followed to build the container
 
