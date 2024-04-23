@@ -14,4 +14,4 @@ After installing k3s and helm chart - follow this [tutorial](https://helm.sh/doc
 helm install -f values.yaml ex1 nextcloud/nextcloud
 ```
 
-This is the file with the values needed for building a cloud storage system. Modifying the options inside the [values.yaml](https://github.com/robonoff/Cloud-Computing-2023-2024/blob/main/Advanced-01/values.yaml) and enabling `mariadb` from `False` to `True`. The cloud storage system is deployed on Nextcloud on the page `http://localhost:8080`. 
+This is the file with the values needed for building a cloud storage system. Modifying the options inside the [`values.yaml`](https://github.com/robonoff/Cloud-Computing-2023-2024/blob/main/Advanced-01/values.yaml) and enabling `mariadb` from `False` to `True`. The cloud storage system is deployed on Nextcloud on the page `http://localhost:8080`. 
