@@ -4,7 +4,7 @@ This folder drafts the required steps for deploying a cloud storage system using
 
 ## Prerequisites
 
-Docker and Docker compose must be necessarly installed on your machine. A basic understanding of containerization with Docker, then Docker Compose, YAML syntax, python and virtual environments. 
+Docker and Docker compose. A basic understanding of containerization with Docker, then Docker Compose, YAML syntax, python and virtual environments. 
 
 ## Steps followed to build the container
 
