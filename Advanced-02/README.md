@@ -14,7 +14,7 @@ Basic understanding of .yaml, Docker, .xml.
 
 ## Steps followed
 
-After setting the entire cluster, to serve the purpose of performing benchmark tests to evaluate the latency, [MPI operator] has been applied to a cluster composed by one launcher node and two workers nodes. 
+After setting the entire cluster, to serve the purpose of performing benchmark tests to evaluate the latency, [MPI operator](https://github.com/kubeflow/mpi-operator) has been applied to a cluster composed by one launcher node and two workers nodes. 
 For installing the MPI operator on the entire cluster, run this command: 
 ```
 kubectl apply con il link sudo kubectl apply -f https://raw.githubusercontent.com/kubeflow/mpi-operator/v0.4.0/deploy/v2beta1/mpi-operator.yaml
