@@ -30,7 +30,7 @@ docker ps -a
 ###
 ###
 ###
-Open the page `http://localhost:8081/` on your favorite browser, and the storage service will be available. To create all of the users, download [create_nextcloud_users.sh](https://github.com/robonoff/Cloud-Computing-2023-2024/blob/main/Basic/create_nextcloud_users.sh), and run the following commands in the terminal:
+Open the page `http://localhost:8081` on your favorite browser, and the storage service will be available. To create all of the users, download [create_nextcloud_users.sh](https://github.com/robonoff/Cloud-Computing-2023-2024/blob/main/Basic/create_nextcloud_users.sh), and run the following commands in the terminal:
 ###
 ###
 ```
