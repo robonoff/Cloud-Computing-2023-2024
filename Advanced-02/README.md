@@ -34,6 +34,10 @@ To run these two files, use this command:
 sudo kubectl apply -f onenode.yaml
 sudo kubectl apply -f twonodes.yaml
 ```
+To retrieve the name of the pods, it's possible to use: 
+```
+sudo kubectl get pods
+```
 
 Two benchmarking files with the latency results are provided: 
 
