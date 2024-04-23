@@ -1,14 +1,12 @@
 ## Cloud Advanced 01 - (MPI @ Kubernetes)
 
 The exercise requires to run the OSU benchmark inside the containers holded by the pods that are in the nodes. The nodes talk via flannel. Two different scenarios have been performed: in the first one, the pods (launcher, worker01, worker02) are on the same node, and in the second scenario the pods are distributed between three nodes (laptophost, nodo2, nodo3). 
-A benchmark to evaluate the latency has been accomplished to deliver results
-The exercise addresses the task of porting simple HPC workflows into Kubernetes by testing the student proficiency and capabilities not only in Kubernetes but also with Docker and HPC workflows.
-The student is required to create a container with the [OSU Benchmark](https://mvapich.cse.ohio-state.edu/benchmarks/.). The container must have a behavior as expected by the operator. 
-This folder is composed by all the files needed to build a cluster with K3s, a light-weight version of K8s. 
+A benchmark to evaluate the latency has been accomplished to deliver results.
+The exercise addresses the task of porting simple HPC workflows into Kubernetes by testing the student proficiency and capabilities not only in Kubernetes but also with Docker and HPC workflows. The student is required to create a container with the [OSU Benchmark](https://mvapich.cse.ohio-state.edu/benchmarks/.). The container must have a behavior as expected by the operator. 
 
 ## Prerequisites
 
-Make sure to have any Kubernetes distribution on the machine (in this case, k3s). 
+Make sure to have any Kubernetes distribution on the machine (in this case, k3s, a light-weight version of k8s). 
 Gnome Boxes, Virtual Machine Manager have been used to create the nodes and manage them. 
 Basic understanding of .yaml, Docker, .xml. 
 
