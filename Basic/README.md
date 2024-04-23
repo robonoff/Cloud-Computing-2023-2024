@@ -1,6 +1,6 @@
 # Cloud Basic - Storage System Deployment w/ Docker
 
-This folder drafts the required steps for deploying a cloud storage system using Docker. It exploits features from MySQL for the database, Nextcloud for the file storage and Locust for the load testing and benchmarking. 
+This directory drafts the required steps for deploying a cloud storage system using Docker. It exploits features from MySQL for the database, Nextcloud for the file storage and Locust for the load testing and benchmarking. 
 
 ## Prerequisites
 
@@ -8,7 +8,7 @@ Docker and Docker compose. A basic understanding of containerization with Docker
 
 ## Steps followed to build the container
 
-1. After creating the [docker-compose.yaml](https://github.com/robonoff/Cloud-Computing-2023-2024/blob/main/Basic/docker-compose.yaml) into a specific folder with a name of your preference (in my case was cloud_base), run this command in the terminal being in this folder:
+1. After creating the [docker-compose.yaml](https://github.com/robonoff/Cloud-Computing-2023-2024/blob/main/Basic/docker-compose.yaml) into a specific directory with a name of your preference (in my case was cloud_base), run this command in the terminal while in this directory:
 
 ###
 ###
