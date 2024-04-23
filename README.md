@@ -10,5 +10,5 @@ The repo is constituted by three folders:
 2. __Advanced01__ is the directory containing the first part of the Assignment for the second module of Cloud Computing exam. The exercise intends to test the comprehension of Kubernetes environment and its resources, requiring the student to replicate the deployment performed in the Basic assignment but using Helmchart (this is the chosen option) or writing custom manifests. 
 
 
-3. __Advanced02__ consists of all the files needed  to build a cluster with K3s, a light-weight version of K8s. The exercise requires to run the OSU benchmark inside the containers held by the pods that are in the nodes. The nodes talk via flannel. Two different scenarios have been performed: in the first one, the pods (launcher, worker01, worker02) are on the same node, and in the second scenario the pods are distributed between three nodes (laptophost, nodo2, nodo3).
-A benchmark to evaluate the latency has been accomplished to deliver results.
+3. __Advanced02__ consists of all the files needed  to build a cluster with K3s, a light-weight version of K8s. The exercise requires to run the OSU benchmark inside the containers held by the pods that are in the nodes. The nodes talk via flannel. Two different scenarios have been performed: in the first one, the pods (launcher, worker01, worker02) are on the same node, while in the second scenario the pods are distributed among three nodes (laptophost, nodo2, nodo3).
+A benchmark to evaluate the latency has been run to show the results delivered by the tests.
