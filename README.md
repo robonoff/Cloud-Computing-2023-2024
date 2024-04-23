@@ -1,7 +1,7 @@
 # GUIDE THROUGH
 
 In this repo, it's possible to find three different directories. Each of them contains the exercises for the two modules of Cloud Computing exam, course held by professors Giuliano Taffoni and Ruggero Lot. 
-The repo is constituted by three folders:
+The repo is constituted by three directories:
 
 
 1. __Basic__, for the first Module of Cloud Computing exam. The assignment requires the student to identify, deploy and implement a cloud-based file storage system. The system should allow users to upload, download, and delete files. Each user should have a private storage space. The system should be scalable, secure, and cost-efficient. As suggested, Nextcloud has been used to approach this problem.
