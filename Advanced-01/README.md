@@ -6,7 +6,7 @@ This folder contains all the required files for deploying a cloud storage system
 
 It's necessary to have installed k3s on the machine and helmchart. 
 
-##Steps followed to build the container
+## Steps followed to build the container
 
 After installing k3s and helm chart - follow this [tutorial](https://helm.sh/docs/intro/install/) for helm -, run this command to pull the nexcloud helmchart:
 
