@@ -19,7 +19,7 @@ For installing the MPI operator on the entire cluster, run this command:
 sudo kubectl apply -f https://raw.githubusercontent.com/kubeflow/mpi-operator/v0.4.0/deploy/v2beta1/mpi-operator.yaml
 ```
 
-Create or download the [DockerFile](https://github.com/robonoff/Cloud-Computing-2023-2024/blob/main/Advanced-02/Dockerfile), in which the MPI operator osu benchmark has been inserted, to build then the container image locally though the following command:
+Create or download the [DockerFile](https://github.com/robonoff/Cloud-Computing-2023-2024/blob/main/Advanced-02/Dockerfile), in which the MPI operator osu benchmark has been installed, to then build the container image locally though the following command:
 ```
 docker build -f Dockerfile -t osuimage .
 ```
