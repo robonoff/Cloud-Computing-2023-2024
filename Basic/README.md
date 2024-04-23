@@ -47,5 +47,5 @@ After creating the users, create another directory, calling it locust, and then 
 locust -f test.py
 ```
 
-In this way, the locust can be opened on the browser on the page `http://localhost:8089/`, where the benchmarking to check the latency and the load testing will be shown. 
+This way, the locust can be opened in the browser on the page `http://localhost:8089/`, where the benchmarking to check the latency and the load testing will be shown. 
 
