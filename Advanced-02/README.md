@@ -28,7 +28,7 @@ The two files are:
 1. [onenode.yaml](https://github.com/robonoff/Cloud-Computing-2023-2024/blob/main/Advanced-02/onenode.yaml). distributes the pods on the same node. 
 2. [twonodes.yaml](https://github.com/robonoff/Cloud-Computing-2023-2024/blob/main/Advanced-02/twonodes.yaml), distributes the pods on two different nodes.
 
-To run these two files, use this command: 
+To transform these two .yaml into objects in Kubernetes, run this command: 
 
 ```
 sudo kubectl apply -f onenode.yaml
