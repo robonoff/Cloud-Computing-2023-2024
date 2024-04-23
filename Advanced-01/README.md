@@ -1,4 +1,4 @@
-# Cloud Advanced 01 -  Storage System Deployment w/ Kubernetes
+# Cloud Advanced 01 -  Cloud Storage System Deployment w/ Kubernetes
 
 This folder contains all the required files for deploying a cloud storage system using K3s, a light-weight version of K8s. 
 
