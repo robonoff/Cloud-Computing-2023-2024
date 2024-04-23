@@ -1,6 +1,6 @@
 # GUIDE THROUGH
 
-In this repo, it's possible to find three different directories. Each of them represents the exercises for the two modules of Cloud Computing exam, course held by professors Giuliano Taffoni and Ruggero Lot. 
+In this repo, it's possible to find three different directories. Each of them contains the exercises for the two modules of Cloud Computing exam, course held by professors Giuliano Taffoni and Ruggero Lot. 
 The repo is constituted by three folders:
 
 
