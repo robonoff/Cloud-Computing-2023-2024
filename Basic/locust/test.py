@@ -28,14 +28,14 @@ class NextcloudUser(HttpUser):
             raise Exception(f"Authentication failed for user {self.user}")
 
 
-    # @task
-    # def propfind(self):
-    #     try:
-    #         response = self.client.request("PROPFIND", "/remote.php/dav", auth=self.auth)
-    #         response.raise_for_status()
-    #     except Exception as e:
-    #         with open("output.txt", "a") as f:
-    #             f.write(f"Error during PROPFIND request: {e} for user {self.user}.\n")
+     @task
+     def propfind(self):
+         try:
+             response = self.client.request("PROPFIND", "/remote.php/dav", auth=self.auth)
+             response.raise_for_status()
+         except Exception as e:
+            with open("output.txt", "a") as f:
+                 f.write(f"Error during PROPFIND request: {e} for user {self.user}.\n")
 
 
     # @task
