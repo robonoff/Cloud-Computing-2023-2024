@@ -33,7 +33,7 @@ class NextcloudUser(HttpUser):
          try:
              response = self.client.request("PROPFIND", "/remote.php/dav", auth=self.auth)
              response.raise_for_status()
-         except Exception as e:
+          except Exception as e:
             with open("output.txt", "a") as f:
                  f.write(f"Error during PROPFIND request: {e} for user {self.user}.\n")
 
