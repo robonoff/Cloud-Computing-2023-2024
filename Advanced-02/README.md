@@ -1,4 +1,4 @@
-## Cloud Advanced 01 - (MPI @ Kubernetes)
+## Cloud Advanced 02 - (MPI @ Kubernetes)
 
 The exercise requires to run the OSU benchmark inside the containers held by the pods that in the nodes. The nodes talk via flannel. Two different scenarios have been performed: in the first one, the pods (launcher, worker01, worker02) are on the same node, while in the second scenario the pods are distributed among three nodes (laptophost, nodo2, nodo3). A benchmark to evaluate the latency has been run to show the results delivered by the tests.
 A benchmark to evaluate the latency has been accomplished to deliver results.
